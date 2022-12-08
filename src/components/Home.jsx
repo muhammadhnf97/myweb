@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import { FaLinkedin } from "react-icons/fa";
 import { SiGithub } from "react-icons/si";
+import {BsTelegram} from "react-icons/bs";
 
 export default function Home(props){
     return (
@@ -15,15 +16,19 @@ export default function Home(props){
             <div className="h-fit flex flex-row items-center text-center p-10 shadow-md border-spacing-2 duration-200 border-2 border-slate-900 border-opacity-70 hover:border-white bg-slate-900 hover:bg-slate-800 bg-opacity-70 hover:bg-opacity-60  text-white">
                 <p className="text-lg z-10">I like <span className="italic font-semibold">simple and smooth</span> but aesthetic design.</p>
             </div>
-            <div className="h-fit py-5 px-10 text-left shadow-md border-spacing-2 duration-200 border-2 border-slate-900 border-opacity-70 hover:border-white bg-slate-900 hover:bg-slate-800 bg-opacity-70 hover:bg-opacity-60  text-white">
-                <h2 className="text-3xl font-bold pb-5">Contact me </h2>
-                <div className="flex mb-2">
+            <div className="h-fit py-2 px-10 text-left shadow-md border-spacing-2 duration-200 border-2 border-slate-900 border-opacity-70 hover:border-white bg-slate-900 hover:bg-slate-800 bg-opacity-70 hover:bg-opacity-60  text-white">
+                <h2 className="text-3xl font-bold pb-2">Contact me </h2>
+                <div className="flex">
                     <FaLinkedin className="self-center mr-3 w-7 h-7" />
-                    <a href="https://www.linkedin.com/in/muhammad-hanif-a362a6234/" className="self-center hover:border-b-4 border-white duration-150 border-[#145364]">Muhammad Hanif Furqani</a>
+                    <a href="https://www.linkedin.com/in/muhammad-hanif-a362a6234/" target="_blank" rel="noreferrer" className="self-center hover:border-b-4 border-white duration-150 border-[#145364]">Muhammad Hanif Furqani</a>
+                </div>
+                <div className="flex my-1">
+                    <SiGithub className="self-center mr-3 w-7 h-7" />
+                    <a href="https://github.com/muhammadhnf97" target="_blank" rel="noreferrer" className="self-center hover:border-b-4 border-white duration-150 border-[#145364]">muhammadhnf97</a>
                 </div>
                 <div className="flex">
-                    <SiGithub className="self-center mr-3 w-7 h-7" />
-                    <a href="https://github.com/muhammadhnf97" className="self-center hover:border-b-4 border-white duration-150 border-[#145364]">muhammadhnf97</a>
+                    <BsTelegram className="self-center mr-3 w-7 h-7" />
+                    <a href="https://t.me/muhammadhnf97" target="_blank" rel="noreferrer" className="self-center hover:border-b-4 border-white duration-150 border-[#145364]">Hanif</a>
                 </div>
             </div>
             <div className="h-fit py-10 px-10 text-left shadow-md border-spacing-2 duration-200 border-2 border-slate-900 border-opacity-70 hover:border-white bg-slate-900 hover:bg-slate-800 bg-opacity-70 hover:bg-opacity-60  text-white">

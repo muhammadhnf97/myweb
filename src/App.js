@@ -30,3 +30,6 @@ export default function App (){
     </div>
   )
 }
+
+
+// "homepage": "https://muhammadhnf97.github.io/myweb",
