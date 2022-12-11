@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar"
 import Home from "./components/Home";
+import Bg from "./components/Bg";
 
 export default function App (){
   const [project] = useState([
     {
       name : "Estock Marketplace",
       img : "marketplace-landscape.png",
-      url : ""
+      url : "https://sunny-frangollo-951718.netlify.app"
     },
     {
       name : "Quizzies Game",
@@ -21,7 +22,8 @@ export default function App (){
     },
   ])
   return (
-    <div className="w-screen h-screen bg-cover">
+    <div className="w-screen h-screen bg-slate-700">
+      <Bg />
       <div className="max-w-7xl h-fit mx-auto rounded-xl">
         <Navbar />
         <Home 

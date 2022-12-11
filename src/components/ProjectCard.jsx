@@ -6,7 +6,7 @@ export default function ProjectCard(props){
             <div className="flex-col px-2">
                 <div className="h-40 w-56 border-4 rounded-md overflow-hidden flex items-start">
                     <a href={data.url} target="_blank" rel="noreferrer">
-                    <img src={`../images/${data.img}`} alt="dataImg" className="hover:transform hover:scale-105 duration-200" />
+                    <img src={`./images/${data.img}`} alt="dataImg" className="hover:transform hover:scale-105 duration-200" />
                     </a>
                 </div>
                 <p className="">{data.name}</p>
