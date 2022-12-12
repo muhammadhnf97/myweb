@@ -19,7 +19,7 @@ export default function Home(props){
             </div>
             <div className="mx-2 md:mx-0 md:rounded-none rounded-lg group relative z-10 mb-3 h-fit py-2 px-10 text-left shadow-md border-spacing-2 duration-200 border-2 border-slate-900 border-opacity-70 hover:border-white bg-slate-900 hover:bg-slate-800 bg-opacity-90 hover:bg-opacity-60 text-white overflow-hidden">
                 <h2 className="text-3xl font-bold pb-2">Contact me</h2>
-                <img src="./images/cat.png" alt="gear" className="w-20 absolute bottom-2 right-5 group-hover:-rotate-3 origin-bottom duration-500 "/>
+                <img src="./images/gear.png" alt="gear" className="w-10 absolute top-2 right-2 group-hover:animate-spin "/>
                 <div className="flex">
                     <FaLinkedin className="self-center mr-3 w-7 h-7" />
                     <a href="https://www.linkedin.com/in/muhammad-hanif-a362a6234/" target="_blank" rel="noreferrer" className="self-center hover:border-b-4 border-white duration-150 border-white">Muhammad Hanif Furqani</a>
@@ -33,7 +33,7 @@ export default function Home(props){
                     <a href="https://t.me/muhammadhnf97" target="_blank" rel="noreferrer" className="self-center hover:border-b-4 border-white duration-150 border-white">Hanif</a>
                 </div>
             </div>
-            <div className="mx-2 md:mx-0 md:rounded-none rounded-lg relative mb-3 text-center md:col-span-1 z-10 overflow-hidden h-fit py-10 px-10 md:text-left shadow-md border-spacing-2 duration-200 border-2 border-slate-900 border-opacity-70 hover:border-white bg-slate-900 hover:bg-slate-800 bg-opacity-90 hover:bg-opacity-60  text-white">
+            <div className="mx-2 md:mx-0 md:rounded-none rounded-lg relative mb-3 md:mb-0 text-center md:col-span-1 z-10 overflow-hidden h-fit py-10 px-10 md:text-left shadow-md duration-200 border-2 border-slate-900 border-opacity-70 hover:border-white bg-slate-900 hover:bg-slate-800 bg-opacity-90 hover:bg-opacity-60 text-white group">
                 <h2 className="text-2xl md:text-3xl font-bold">About Me</h2>
                 <p className="text-base md:text-lg">I'm a <span className="italic font-semibold">freelance Web Developer</span> which strong in <span className="italic font-semibold">Frontend. I usually works with React JS and Tailwind CSS. </span> I graduated in 2021 with Major <span className="italic font-semibold">Informatics Engineering.</span></p>
             </div>
@@ -54,3 +54,5 @@ export default function Home(props){
         </>
     )
 }
+
+//   "homepage": "https://muhammadhnf97.github.io/myweb",

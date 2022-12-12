@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar"
 import Home from "./components/Home";
-import Bg from "./components/Bg";
 
 export default function App (){
   const [project] = useState([
@@ -22,8 +21,7 @@ export default function App (){
     },
   ])
   return (
-    <div className="w-screen h-full md:h-screen bg-slate-700 overflow-hidden">
-      <Bg />
+    <div className="w-screen h-full md:h-screen bg-slate-700 overflow-hidden" style={{ backgroundImage : 'url(./images/bg.png)' }}>
       <div className="max-w-7xl h-fit mx-auto rounded-xl">
         <div className="hidden md:block">
           <Navbar />
