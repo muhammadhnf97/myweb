@@ -11,8 +11,8 @@ export default function Home(props){
             <div className="h-96 mb-3 relative justify-center bg-center duration-200 overflow-hidden md:mb-0 md:row-span-2 md:h-full md:col-span-2 md:my-0">
                 <div className="w-full h-full justify-center bg-center bg-cover duration-200 hover:transform hover:scale-105 absolute" style={{ backgroundImage : "url(./images/home.png)" }}>
                 </div>
-                <h1 className="absolute text-white drop-shadow-xl text-3xl md:text-4xl font-bold bottom-16 left-1/2 -translate-x-1/2 transform md:translate-x-0 md:bottom-30 md:left-5">Hi, I'am Hanif</h1>
-                <p className="absolute text-white drop-shadow-xl text-2xl md:text-2xl bottom-10 left-1/2 -translate-x-1/2 transform md:translate-x-0 md:bottom-10 md:left-5">React JS Developer</p>
+                <h1 className="absolute text-white drop-shadow-xl text-2xl md:text-4xl font-bold bottom-16 left-1/2 -translate-x-1/2 transform md:translate-x-0 md:bottom-30 md:left-5">Hi, I'am Hanif</h1>
+                <p className="absolute text-white drop-shadow-xl text-lg md:text-2xl bottom-10 left-1/2 -translate-x-1/2 transform md:translate-x-0 md:bottom-10 md:left-5">React JS Developer</p>
             </div>
             <div className="mx-2 md:mx-0 md:rounded-none rounded-lg h-fit mb-3 md:mb-0 md:col-span-1 z-10 text-center p-10 shadow-md duration-200 border-2 border-slate-900 border-opacity-70 hover:border-white bg-slate-900 hover:bg-slate-800 bg-opacity-90 hover:bg-opacity-60 text-white relative">
                 <p className="md:text-lg">I like <span className="italic font-semibold">simple and smooth</span> but aesthetic design.</p>
@@ -54,5 +54,3 @@ export default function Home(props){
         </>
     )
 }
-
-//   "homepage": "https://muhammadhnf97.github.io/myweb",
